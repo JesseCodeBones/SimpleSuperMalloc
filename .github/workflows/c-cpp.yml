@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: prepare
+      run: mkdir build
     - name: build
       run: cmake --build build -j4
 
