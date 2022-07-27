@@ -1,4 +1,4 @@
-# Easy Malloc
+# Simple Super Malloc
 
 ## Description
 This project are aimed to create demo with source code for the most popular solutions of memory management.  
