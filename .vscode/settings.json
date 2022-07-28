@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "*.tcc": "cpp",
+        "unordered_map": "cpp",
+        "chrono": "cpp"
     }
 }
