@@ -35,6 +35,7 @@ private:
   void deflagFreeList();
   LIST_INIT(freeList);
   uint8_t *block;
+  uint8_t mergeHit = 0U;
 
   static inline void list_insert(struct ll_head *n, struct ll_head *prev,
                                  struct ll_head *next) {
